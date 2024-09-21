@@ -549,6 +549,7 @@ display: inline-block;
 
     .container {
         overflow-x: hidden;
+        height: 100%;
     }
 
     .home-page {
