@@ -535,6 +535,163 @@ display: inline-block;
     
 }
 
+@media (max-width: 390px) {
+
+    .item-list {
+        max-width: 300px;
+        margin-left: -200px !important;
+    }
+
+    .menu-title {
+        font-size: 25px;
+        line-height: 3.4;
+    }
+
+    .container {
+        overflow-x: hidden;
+    }
+
+    .home-page {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        .title-div {
+            margin: 0;
+            padding: 0;
+
+            margin-top: 0px;
+            .title {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .title-text {
+                max-width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .profile-image {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .about-skill {
+        margin: 0;
+        padding: 0;
+        .about-div {
+            margin: 0;
+            padding: 0;
+            .title {
+                font-size: 30px;
+                margin-top: 50px;
+                padding: 0;
+                text-align: center;
+                margin-left: 100px;
+            }
+
+            .about-page {
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                .about-text {
+                    max-width: 70%;
+                    text-align: justify;
+                    margin-left: 100px;
+                    margin-right: auto;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .skill-div {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        .skill-page {
+            margin: 0;
+            margin-left: 50px;
+            padding: 0;
+            min-width: 100%;
+            .title {
+                font-size: 30px;
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            h2 {
+                font-size: 23px;
+            }
+
+
+        }
+    }
+
+    .phoneImage {
+        margin-left: -320px;
+        margin-top: 200px;
+    }
+
+    .compimg {
+        margin: 10px;
+        margin-left: 57px;
+        padding: 0px;
+    }
+
+    .experience-div {
+        .title {
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+            margin-top: 0px;
+        }
+
+        .experience-list {
+            display: flex;
+            flex-direction: column;
+            
+            ul {
+                max-width: 100%;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 180px;
+
+                h1, h3 {
+                    font-size: 23px;
+                }
+
+                p {
+                    font-size: 17px;
+                    margin: 0;
+                    text-align: justify;
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .imgcontact {
+        padding: 0;
+        margin-top: -300px;
+    }
+
+    .contact-page {
+        padding-top: 470px;
+        svg {
+            scale: 0.45;
+        }
+    }
+    
+}
+
 @media (max-width: 375px) {
 
     
