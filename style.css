@@ -535,7 +535,7 @@ display: inline-block;
     
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
 
     .item-list {
         max-width: 300px;
