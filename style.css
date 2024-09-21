@@ -681,11 +681,11 @@ display: inline-block;
 
     .imgcontact {
         padding: 0;
-        margin-top: -400px;
+        margin-top: -300px;
     }
 
     .contact-page {
-        padding-top: 200px;
+        padding-top: 300px;
         svg {
             scale: 0.45;
         }
