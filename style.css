@@ -549,7 +549,6 @@ display: inline-block;
 
     .container {
         overflow-x: hidden;
-        max-height: 100%;
     }
 
     .home-page {
